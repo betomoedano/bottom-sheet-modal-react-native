@@ -26,7 +26,7 @@ export default function App() {
 
   const bottomSheetModalRef = useRef(null);
 
-  const snapPoints = ["25%", "48%"];
+  const snapPoints = ["25%", "48%", "75%"];
 
   function handlePresentModal() {
     bottomSheetModalRef.current?.present();
